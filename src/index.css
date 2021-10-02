@@ -36,6 +36,7 @@ textarea {
 	border: dotted 0.1rem chocolate;
 	height: 3rem;
 	width: 100%;
+	color: chocolate;
 
 }
 textarea::placeholder{
