@@ -3,13 +3,14 @@ import './App.css';
 
 function App() {
   return (
-    <form className="content">
-      <h1>Toggle Texts</h1>
+    <form>
+      <h1>Toggable</h1>
+      <h3>Fill the fields and press,<br /> magic will happens</h3>
 			<fieldset>
 				<label htmlFor="textOne">Text One</label>
 				<textarea placeholder="Togglable text One" id="textOne"></textarea>
 			</fieldset>
-			<button>Toggle Texts</button>
+			<button>Click for Toggle Texts</button>
 			<fieldset>
 				<label htmlFor="textTwo">Text Two</label>
 				<textarea placeholder="Togglable text Two" id="textTwo"></textarea>
